@@ -114,6 +114,12 @@ public class Register extends AppCompatActivity {
                             Toast.LENGTH_SHORT).show();
 
                     return;
+                } else if(password.length() < 6) {
+                    Toast.makeText(getApplicationContext(),
+                            "Password need to have 6 character or more",
+                            Toast.LENGTH_SHORT).show();
+
+                    return;
                 }
 
                 mAuth
