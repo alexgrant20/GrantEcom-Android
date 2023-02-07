@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">GrantEcom</string>
+    <string name="app_name">Dierce</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Company Address</item>
+        <item>Logout</item>
+    </string-array>
 </resources>
